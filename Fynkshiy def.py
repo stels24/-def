@@ -1,11 +1,10 @@
-def print_params():
-    print("Hello")
+def print_params(fruit):
+    print("sweet", fruit)
 
-print_params()
-print_params()
+print_params("apple")
+print_params("banana")
 
 
-print_params()
-print_params()
-print_params()
-print_params()
+print_params("strawberry")
+print_params("currant")
+print_params("kiwi")
